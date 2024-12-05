@@ -1,0 +1,137 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 2;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  color: #383838;
+  font-family: "Noto Sans JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 0;
+  display: none;
+  padding-top: 120px;
+}
+
+// header
+.header-title {
+  font-size: 50px;
+  letter-spacing: 0.12em;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+}
+
+.header-nav {
+  width: 50%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 30px;
+  font-size: 30px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.header-inner {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top-img {
+  width: 100%;
+  display: none;
+}
+
+// About
+.about-inner {
+ display: flex;
+}
+
+.about-comment {
+  padding: 20px;
+}
+
+.about-th{
+    text-align: left;
+    width: 180px;
+}
+
+// Personal history
+.ph-table{
+    border-collapse: collapse;
+
+    th{
+        border-bottom: 1.5px rgb(222, 221, 221) solid;
+        text-align: left;
+        width: 200px;
+        padding: 10px;
+    }
+
+    td{
+        border-bottom: 1.5px rgb(222, 221, 221) solid;
+        padding: 10px;
+    }
+}
+
+.ph-img{
+  width: 100%;
+}
+
+// Portfolio部分
+
+// footer部分
+
+.top-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    z-index: 1000;
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: 2px,solid,#555;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: #333;
+    outline-color: #F2F0E9;
+    opacity: 0.6;
+    display: none;
+}
+
+// 共通クラス
+.section-title {
+  font-size: 40px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  padding: 120px 10px 0 20px;
+}
+
+.inner {
+  margin: 0 40px;
+}
+
